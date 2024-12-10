@@ -6,7 +6,7 @@ function Newsletter() {
   return (
     <div className="rounded-3xl p-4 mt-10">
       <div className="flex gap-3 items-center justify-center max-md:flex-col">
-        {/* NewsletterImage */}
+        
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex overflow-hidden flex-col grow h-56 w-full bg-pink-50 rounded-3xl max-md:mt-5 max-md:max-w-full">
             <img
@@ -18,7 +18,7 @@ function Newsletter() {
           </div>
         </div>
 
-        {/* NewsletterForm */}
+      
         <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex h-60  overflow-hidden flex-col px-8 pt-2 pb-14 mx-auto w-full bg-pink-50 rounded-3xl max-md:px-5 max-md:mt-5 max-md:max-w-full">
             <h2 className="self-start text-4xl mt-5 font-medium text-neutral-700 max-md:max-w-full">
