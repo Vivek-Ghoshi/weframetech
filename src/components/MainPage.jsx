@@ -2,18 +2,7 @@ import * as React from "react";
 import Discription from "./Discription";
 
 
-// const dimensions = [
-//   {
-//     icon: "/images/icons heart.png",
-//     value: "20",
-//     unit: "cm",
-//   },
-//   {
-//     icon: "",
-//     value: "50",
-//     unit: "cm",
-//   },
-// ];
+
 
 const specifications = [
   "Location appareil à raclette - Raclette traditionnelle 1/2 roue",
@@ -87,7 +76,7 @@ const MainPage = () => {
             />
           </div>
 
-          {/* <Divider /> */}
+          
 
           <div className="flex gap-4 mt-5 w-4 h-4 max-w-full text-base text-gray-900 whitespace-nowrap w-[148px]">
           <Icon
@@ -104,7 +93,7 @@ const MainPage = () => {
             />
           </div>
 
-          {/* <Divider /> */}
+         
 
           <div className="self-start mt-3.5 text-sm leading-5 text-zinc-600">
             {specifications.map((spec, index) => (
@@ -115,7 +104,7 @@ const MainPage = () => {
             ))}
           </div>
 
-          {/* <Divider /> */}
+        
 
           <div className="flex flex-wrap gap-1.5 mt-24 w-full text-base font-bold leading-tight text-center text-white uppercase max-md:max-w-full">
             <div
@@ -158,11 +147,7 @@ const MainPage = () => {
   );
 };
 
-// function Divider() {
-//   return (
-//     <div className="shrink-0 w-full h-px border border-solid border-neutral-400" />
-//   );
-// }
+
 
 function DimensionItem({ icon, value, unit }) {
   return (

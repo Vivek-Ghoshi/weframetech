@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer'
-import MainPage from '@/components/Mainpage'
+import MainPage from '@/components/MainPage'
 import NavigationBar from '@/components/NavigationBar'
 import Newsletter from '@/components/NewsLetter'
 import ProductGrid from '@/components/ProductGrid'
@@ -13,7 +13,7 @@ const index = () => {
     <div>
     <NavigationBar/>
     <MainPage/>
-    {/* <ProductLayout/> */}
+    <ProductLayout/>
     <ProductGrid/>
     <ServiceFeatures/>
     <Newsletter/>

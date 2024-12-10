@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Newsletter() {
+function NewsLetter() {
 
 
   return (
@@ -65,4 +65,4 @@ function Newsletter() {
   );
 }
 
-export default Newsletter;
+export default NewsLetter;
