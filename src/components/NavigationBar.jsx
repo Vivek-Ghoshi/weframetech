@@ -1,9 +1,9 @@
 import * as React from "react";
 
 const navigationLinks = [
-  { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/a882736c70a5de722f1826c1e7240d27f0b6bf1d00fe8c955969506a9bdf2333?placeholderIfAbsent=true&apiKey=60b2831358b7404ba4bd888e086aaaac", text: "Inspirations" },
-  { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/55eb7156d0573269ed78abd68a03b3ce1549018b1da31a185976cd175fbadde5?placeholderIfAbsent=true&apiKey=60b2831358b7404ba4bd888e086aaaac", text: "Mes favoris", count: "24" },
-  { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c626e96881fbd5316406498c5e00c20eb24bfe4e6929d53a4b1066527df387a9?placeholderIfAbsent=true&apiKey=60b2831358b7404ba4bd888e086aaaac", text: "Panier", variant: "primary" }
+  { icon: "/Images/inspirations.png", text: "Inspirations" },
+  { icon: "/Images/mesfav.png", text: "Mes favoris", count: "24" },
+  { icon: "/Images/cart.png", text: "Panier", variant: "primary" }
 ];
 
 const categories = [
@@ -45,7 +45,7 @@ function NavigationBar() {
                 <div className="self-stretch my-auto">FR</div>
                 <img
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/25891a6c07108560b484f1a6098edfcb7d133f77e23f7bb3f0e7cc167f35938c?placeholderIfAbsent=true&apiKey=60b2831358b7404ba4bd888e086aaaac"
+                  src="/Images/arrow.png"
                   alt=""
                   className="object-contain shrink-0 self-stretch my-auto w-2.5 aspect-square"
                 />
@@ -72,7 +72,7 @@ function SearchBar() {
       />
       <img
         loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/eac09f04d05efe8d44143abe82f2c4d91c787586d8c5b7720c53712604e7bc71?placeholderIfAbsent=true&apiKey=60b2831358b7404ba4bd888e086aaaac"
+        src="/Images/search.png"
         alt=""
         className="object-contain shrink-0 self-stretch my-auto rounded-none aspect-[0.98] w-[44px]"
       />
